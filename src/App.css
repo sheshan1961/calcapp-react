@@ -1,0 +1,63 @@
+.container {
+  text-align: center;
+  align-content: center;
+}
+
+.board {
+  background-color: coral;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 247px;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  flex-wrap: wrap;
+  border: black solid 1px;
+  line-height: 80px;
+}
+
+.equal{
+  font-weight: bolder;
+  background-color: aqua;
+  width: 163px;
+  height: 80px;
+  flex-wrap: wrap;
+  border: black solid 1px;
+  line-height: 80px;
+}
+
+.sign {
+  width: 80px;
+  height: 80px;
+  flex-wrap: wrap;
+  border: black solid 1px;
+  line-height: 80px;
+}
+
+.board2 {
+  background-color: deeppink;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 80px;
+}
+
+.input {
+  height: 50px;
+  width: 330px;
+}
+
+::placeholder {
+  color: black;
+  font-size: 20px;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+}
+
+#display {
+ margin-left: 90px;
+}
